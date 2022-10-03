@@ -1,4 +1,4 @@
-# 🔑 Gitlab feature-flags proxy
+# 🔑 Gitlab feature flags proxy service
 
 Simple proxy to access gitlab feature flags without disclosure
 personal access token and only with access to specific project.
@@ -33,7 +33,7 @@ Get all feature flags for specific project:
 GET /feature_flags/project_id
 ```
 
-Get specific feature flag (case-sensetive):
+Get specific feature flag (case-sensitive):
 
 ```http request
 GET /feature_flag/project_id/feature_flag_name
