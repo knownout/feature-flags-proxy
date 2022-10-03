@@ -27,11 +27,15 @@ Example configuration file (config.json):
 After configuration is complete, the web service can be started.
 You can access gitlab feature flags with following requests:
 
-```http request
-# Get all feature flags for specific project
-GET /feature_flags/project_id
+Get all feature flags for specific project:
 
-# Get specific feature flag (case-sensetive)
+```http request
+GET /feature_flags/project_id
+```
+
+Get specific feature flag (case-sensetive):
+
+```http request
 GET /feature_flag/project_id/feature_flag_name
 ```
 
